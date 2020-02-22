@@ -37,10 +37,11 @@ sudo apt-get update
 
 wget -c "$URL_VISUAL_STUDIO"       -P "$DIRETORIO_DOWNLOADS"
 
-
-
 ## Adicionando/Confirmando arquitetura de 32 bits ##
 sudo dpkg --add-architecture i386
+
+## Instalando pacotes .deb baixados na sessão anterior ##
+sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
 
 # Instalar programas no apt
 for nome_do_programa in ${PROGRAMAS_PARA_INSTALAR[@]}; do
