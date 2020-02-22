@@ -30,8 +30,6 @@ PROGRAMAS_PARA_INSTALAR=(
 sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/cache/apt/archives/lock
 
-sudo add-apt-repository ppa:obsproject/obs-studio
-
 sudo apt-get update
 
 wget -c "$URL_VISUAL_STUDIO"       -P "$DIRETORIO_DOWNLOADS"
