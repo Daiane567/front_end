@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DIRETORIO_DOWNLOADS="$HOME/Downloads/programas"
-URL_VISUAL_STUDIO="https://go.microsoft.com/fwlink/?LinkID=760680"
+URL_VISUAL_STUDIO="https://az764295.vo.msecnd.net/stable/c7d83e57cd18f18026a8162d042843bda1bcf21f/code_1.35.1-1560349847_i386.deb"
 
 PROGRAMAS_PARA_INSTALAR=(
   git
@@ -22,7 +22,6 @@ PROGRAMAS_PARA_INSTALAR=(
   npm
   build-essential
   ffmpeg
-  obs-studio
 )
 # ---------------------------------------------------------------------- #
 
