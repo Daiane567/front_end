@@ -22,6 +22,9 @@ PROGRAMAS_PARA_INSTALAR=(
   npm
   build-essential
   ffmpeg
+  python3.8
+  python3.8-venv
+  python3-pip
 )
 # ---------------------------------------------------------------------- #
 
@@ -54,8 +57,6 @@ sudo snap install gitkraken
 snap install postman
 sudo snap install slack --classic
 sudo snap install skype --classic
-sudo snap install spotify
-sudo snap install --classic code
 
 sudo npm install -g create-react-app
 sudo npm install -g @vue/cli
