@@ -10,7 +10,6 @@ PROGRAMAS_PARA_INSTALAR=(
   openjdk-11-doc
   openjdk-11-source
   openjdk-11-jdk-headless
-  keepassxc
   ecplise
   apt-transport-https 
   ca-certificates
@@ -55,7 +54,6 @@ done
 ## Instalando pacotes Snap ##
 sudo snap install gitkraken
 snap install postman
-sudo snap install slack --classic
 sudo snap install skype --classic
 
 sudo npm install -g create-react-app
